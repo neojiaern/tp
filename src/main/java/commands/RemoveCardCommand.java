@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.logging.Logger;
 
-public class RemoveCardCommand extends Command {
+public class RemoveCardCommand extends RemoveCommand {
     private static Logger logger = KajiLog.getLogger(RemoveCardCommand.class.getName());
 
     public static final String MESSAGE_SUCCESS_FLASHCARD = "The following flashcard has been removed:\n";

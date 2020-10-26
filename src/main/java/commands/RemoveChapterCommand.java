@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.logging.Logger;
 
-public class RemoveChapterCommand extends Command {
+public class RemoveChapterCommand extends RemoveCommand {
     private static Logger logger = KajiLog.getLogger(RemoveChapterCommand.class.getName());
 
     public static final String MESSAGE_SUCCESS_CHAPTER = "The chapter <%1$s> has been removed.\n";
